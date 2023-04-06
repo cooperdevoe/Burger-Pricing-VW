@@ -1,7 +1,7 @@
 # R package here: https://rdrr.io/cran/pricesensitivitymeter/
 library(pricesensitivitymeter)
 
-vw = read.csv("C:\\Users\\coope\\OneDrive\\Desktop\\Professional\\vw_data.csv")
+vw = read.csv("C:\\Users\\Username\\Downloads\\vw_data.csv") #<------------change file path
 
 output_psm_demo <- psm_analysis(toocheap = vw$toocheap,
                                  cheap = vw$cheap,
